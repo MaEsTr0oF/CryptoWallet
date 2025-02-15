@@ -608,7 +608,6 @@ export const cryptoData = {
     hasNextPage: true,
   },
 }
-
 export const cryptoAssets = [
   {
     id: 'bitcoin',
@@ -622,4 +621,10 @@ export const cryptoAssets = [
     price: 2400,
     date: new Date(),
   },
+  {
+	id: 'dogecoin',
+	price:0.072,
+	amount:10000,
+	data: new Date(),
+  }
 ]
